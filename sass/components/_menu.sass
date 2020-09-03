@@ -1,0 +1,19 @@
+.menu
+  padding: 18px 0 31px 0
+
+  &__list
+    list-style: none
+    padding: 0
+    margin: 0 0 0 233px
+    display: flex
+
+  &__link
+    > a
+      color: $greyColor
+      text-decoration: none
+
+      &:hover
+        color: darken($greyColor, 5%)
+
+    &:not(:last-child)
+      margin-right: 30px
