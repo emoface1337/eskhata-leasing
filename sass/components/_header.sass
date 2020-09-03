@@ -1,0 +1,42 @@
+.header
+  padding: 12px 0
+  background: $greyBgColor
+
+  &__logo
+    margin-right: 92px
+
+  &__nav
+    line-height: 19px
+    font-weight: 500
+    flex: 1 1 auto
+
+  &__additionally
+    display: flex
+
+  &__search
+    margin-right: 27px
+
+  &__lang
+    font-size: 14px
+    line-height: 17px
+    > a
+      color: $greyColor
+      text-decoration: none
+
+.nav
+  &__list
+    display: flex
+    list-style: none
+
+  &__link
+    > a
+      color: $greyColor
+      text-decoration: none
+
+      &:hover
+        color: darken($greyColor, 5%)
+
+  &__link:not(:last-child)
+    margin-right: 50px
+
+
