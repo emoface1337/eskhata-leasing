@@ -3,6 +3,7 @@
 @import "variables"
 @import "components/header"
 @import "components/menu"
+@import "components/hero"
 
 body
   font-family: SamsungOne, sans-serif
@@ -10,20 +11,35 @@ body
 
 .container
   max-width: 1024px
-  display: flex
   margin: 0 auto
-  align-items: center
   width: 100%
+
+.row
+  width: 100%
+  display: flex
+  align-items: center
 
 h1
   font-size: 42px
+  margin: 0
 
 h2
   font-size: 32px
+  margin: 0
 
 h4
   font-size: 22px
+  margin: 0
 
 ul
   margin: 0
   padding: 0
+
+.button
+  font-weight: 500
+  background: #0E5CDD
+  box-shadow: -4px 4px 20px rgba(14, 92, 221, 0.25)
+  border-radius: 5px
+  border: none
+  color: white
+  cursor: pointer

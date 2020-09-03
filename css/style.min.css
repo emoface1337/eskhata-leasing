@@ -353,26 +353,63 @@ template {
   .menu__link:not(:last-child) {
     margin-right: 30px; }
 
+.hero {
+  padding: 95px 0 85px 0;
+  background-image: url("../../assets/images/hero-background.jpg");
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-color: #EEF0F4; }
+  .hero .row {
+    flex-direction: column;
+    align-items: flex-start; }
+  .hero__title {
+    font-weight: 600;
+    line-height: 50px;
+    width: 430px;
+    margin-bottom: 22px; }
+  .hero__subtitle {
+    color: #7A7A7A;
+    font-weight: normal;
+    margin-bottom: 53px; }
+  .hero__button {
+    width: 200px;
+    height: 50px; }
+
 body {
   font-family: SamsungOne, sans-serif;
   font-size: 16px; }
 
 .container {
   max-width: 1024px;
-  display: flex;
   margin: 0 auto;
-  align-items: center;
   width: 100%; }
 
+.row {
+  width: 100%;
+  display: flex;
+  align-items: center; }
+
 h1 {
-  font-size: 42px; }
+  font-size: 42px;
+  margin: 0; }
 
 h2 {
-  font-size: 32px; }
+  font-size: 32px;
+  margin: 0; }
 
 h4 {
-  font-size: 22px; }
+  font-size: 22px;
+  margin: 0; }
 
 ul {
   margin: 0;
   padding: 0; }
+
+.button {
+  font-weight: 500;
+  background: #0E5CDD;
+  box-shadow: -4px 4px 20px rgba(14, 92, 221, 0.25);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer; }
