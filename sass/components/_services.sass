@@ -1,0 +1,62 @@
+.services
+  padding: 50px 0 100px 0
+
+  &__title
+    text-align: center
+    margin-bottom: 45px
+
+  & .row
+    justify-content: space-between
+
+    &:not(:last-child)
+      margin-bottom: 40px
+
+    &:nth-child(4)
+      > div:nth-child(2)
+        > img:nth-child(2)
+          bottom: 28px
+          right: 28px
+
+    &:nth-child(3)
+      > div:nth-child(1)
+        > img:nth-child(2)
+          bottom: 39px
+
+  &__card
+    border: 1px solid #EEF0F4
+    box-sizing: border-box
+    box-shadow: -4px 4px 25px rgba(215, 215, 215, 0.5)
+    border-radius: 5px
+    padding: 36px 0 40px 33px
+    flex: 0 1 495px
+    height: 257px
+    display: flex
+    flex-direction: row
+    position: relative
+
+    > img
+      position: absolute
+      right: 0
+      bottom: 0
+      z-index: -1
+
+    > div
+      display: flex
+      flex-direction: column
+
+    &-title
+      font-weight: 600
+      font-size: 24px
+      margin-bottom: 18px
+
+    &-subtitle
+      font-weight: 500
+      font-size: 18px
+      color: $greyColor
+      width: 219px
+
+    &-button
+      width: 145px
+      height: 35px
+      font-size: 14px
+      margin-top: auto

@@ -375,6 +375,54 @@ template {
     width: 200px;
     height: 50px; }
 
+.services {
+  padding: 50px 0 100px 0; }
+  .services__title {
+    text-align: center;
+    margin-bottom: 45px; }
+  .services .row {
+    justify-content: space-between; }
+    .services .row:not(:last-child) {
+      margin-bottom: 40px; }
+    .services .row:nth-child(4) > div:nth-child(2) > img:nth-child(2) {
+      bottom: 28px;
+      right: 28px; }
+    .services .row:nth-child(3) > div:nth-child(1) > img:nth-child(2) {
+      bottom: 39px; }
+  .services__card {
+    border: 1px solid #EEF0F4;
+    box-sizing: border-box;
+    box-shadow: -4px 4px 25px rgba(215, 215, 215, 0.5);
+    border-radius: 5px;
+    padding: 36px 0 40px 33px;
+    flex: 0 1 495px;
+    height: 257px;
+    display: flex;
+    flex-direction: row;
+    position: relative; }
+    .services__card > img {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      z-index: -1; }
+    .services__card > div {
+      display: flex;
+      flex-direction: column; }
+    .services__card-title {
+      font-weight: 600;
+      font-size: 24px;
+      margin-bottom: 18px; }
+    .services__card-subtitle {
+      font-weight: 500;
+      font-size: 18px;
+      color: #959BA4;
+      width: 219px; }
+    .services__card-button {
+      width: 145px;
+      height: 35px;
+      font-size: 14px;
+      margin-top: auto; }
+
 body {
   font-family: SamsungOne, sans-serif;
   font-size: 16px; }
@@ -395,7 +443,8 @@ h1 {
 
 h2 {
   font-size: 32px;
-  margin: 0; }
+  margin: 0;
+  font-weight: 500; }
 
 h4 {
   font-size: 22px;
