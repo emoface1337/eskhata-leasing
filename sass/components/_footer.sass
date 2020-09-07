@@ -1,0 +1,62 @@
+.footer
+  padding: 55px 0
+  background-color: $greyBgColor
+
+  & .row:first-child
+    padding-bottom: 40px
+    margin-bottom: 45px
+    border-bottom: 1px solid #CBCBCB
+
+  & .row
+    justify-content: space-between
+
+  & .row:last-child
+    align-items: flex-end
+
+  &__nav
+    flex: 0 1 216px
+    display: flex
+    flex-direction: column
+    list-style: none
+
+    &-link
+      color: #0E5CDD
+
+    & li
+      margin-bottom: 20px
+
+      &:first-child
+        font-weight: bold
+        text-transform: uppercase
+
+  &__info
+    color: $greyColor
+    flex: 0 0 auto
+
+    &-copyright
+      margin: 35px 0 0 0
+
+  &__contacts
+    color: $greyColor
+    display: flex
+    flex: 0 1 150px
+    flex-direction: column
+
+    &-title
+      margin-bottom: 35px
+
+    &-wrapper
+      display: flex
+      height: 28px
+
+    &-item
+      height: 100%
+
+      &:not(:last-child)
+        margin-right: 10px
+
+      & a
+        height: 100%
+
+      & img
+        height: 100%
