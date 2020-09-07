@@ -459,6 +459,18 @@ template {
       width: 65px;
       height: 65px; }
 
+.partners {
+  padding: 75px 0; }
+  .partners .row {
+    height: 45px;
+    justify-content: space-between; }
+  .partners__item {
+    flex: 0 1 150px;
+    height: 100%;
+    text-align: right; }
+    .partners__item > img {
+      height: 100%; }
+
 body {
   font-family: SamsungOne, sans-serif;
   font-size: 16px; }
@@ -498,6 +510,8 @@ ul {
   border: none;
   color: white;
   cursor: pointer; }
+  .button:hover {
+    background: #0c52c5; }
 
 .title {
   text-align: center;
