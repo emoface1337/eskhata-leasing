@@ -377,9 +377,6 @@ template {
 
 .services {
   padding: 50px 0 100px 0; }
-  .services__title {
-    text-align: center;
-    margin-bottom: 45px; }
   .services .row {
     justify-content: space-between; }
     .services .row:not(:last-child) {
@@ -400,6 +397,8 @@ template {
     display: flex;
     flex-direction: row;
     position: relative; }
+    .services__card:hover {
+      box-shadow: -4px 4px 25px #d7d7d7; }
     .services__card > img {
       position: absolute;
       right: 0;
@@ -422,6 +421,43 @@ template {
       height: 35px;
       font-size: 14px;
       margin-top: auto; }
+
+.news {
+  padding: 90px 0;
+  background-color: #EEF0F4; }
+  .news .row {
+    justify-content: space-between; }
+  .news__card {
+    background-color: white;
+    flex: 0 1 495px;
+    height: 230px;
+    display: flex;
+    position: relative;
+    box-shadow: 20px 4px 25px rgba(209, 209, 209, 0.25);
+    border-radius: 5px;
+    padding: 30px 35px;
+    box-sizing: border-box;
+    justify-content: space-between; }
+    .news__card:hover {
+      box-shadow: 20px 4px 25px #d1d1d1; }
+    .news__card > div {
+      display: flex;
+      flex-direction: column; }
+    .news__card-title {
+      font-weight: 600;
+      font-size: 24px;
+      margin-bottom: 15px; }
+    .news__card-subtitle {
+      font-size: 18px;
+      color: #959BA4;
+      max-width: 325px; }
+    .news__card-link {
+      color: #1771E6;
+      text-decoration: none;
+      margin-top: auto; }
+    .news__card-image {
+      width: 65px;
+      height: 65px; }
 
 body {
   font-family: SamsungOne, sans-serif;
@@ -462,3 +498,7 @@ ul {
   border: none;
   color: white;
   cursor: pointer; }
+
+.title {
+  text-align: center;
+  margin-bottom: 45px; }
